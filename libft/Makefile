@@ -29,7 +29,8 @@ SRC =	ft_isalnum.c\
 		ft_strchr.c\
 		ft_strrchr.c\
 		ft_strncmp.c\
-		ft_substr.c
+		ft_substr.c\
+		ft_memmove.c
 
 OBJS = $(SRC:.c=.o)
 
