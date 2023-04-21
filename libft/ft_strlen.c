@@ -12,9 +12,9 @@
 
 #include "libft.h"
 
-int	ft_strlen(char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -23,11 +23,3 @@ int	ft_strlen(char *str)
 	}
 	return (i);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	char	abc[] = "Pneumonia";
-
-	printf("ft_strlen = %d", ft_strlen(abc));
-}*/
