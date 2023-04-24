@@ -36,4 +36,16 @@ char	*ft_substr(char const *str, unsigned int start, size_t len);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 char	*ft_strrchr(const char *str, int val);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
+char	*ft_strnstr(const char *str, const char *val, size_t num);
+void	*ft_calloc(size_t num, size_t size);
+char	*ft_strdup(const char *str);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_itoa(int num);
+char	*ft_strmapi (char const *s, char (*f)(unsigned int, char));
+void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *str, int fd);
+void	ft_putendl_fd(char *str, int fd);
+void    ft_putnbr_fd(int num, int fd);
 #endif
