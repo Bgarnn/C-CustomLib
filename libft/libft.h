@@ -48,4 +48,6 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *str, int fd);
 void	ft_putendl_fd(char *str, int fd);
 void    ft_putnbr_fd(int num, int fd);
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+char	*ft_strtrim(char const *s1, char const *set);
 #endif
