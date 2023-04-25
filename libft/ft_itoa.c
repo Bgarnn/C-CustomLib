@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-static int	ft_count(int	num)
+static int	ft_count(int num)
 {
 	int	len;
 
@@ -22,17 +22,18 @@ static int	ft_count(int	num)
 		len = 1;
 		num = -num;
 	}
-	while (num > 0) 
+	while (num > 0)
 	{
-        num = num / 10;
+		num = num / 10;
 		len++;
 	}
 	return (len);
 }
+
 char	*ft_itoa(int num)
 {
 	char	*str;
-	int	len;
+	int		len;
 
 	if (num == 0)
 		return (ft_strdup("0"));
@@ -49,8 +50,8 @@ char	*ft_itoa(int num)
 	while (num > 0)
 	{
 		str[len - 1] = (num % 10) + '0';
-		num = num/10;
+		num = num / 10;
 		len--;
 	}
-	return(str);
+	return (str);
 }

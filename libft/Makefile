@@ -44,7 +44,8 @@ SRC =	ft_isalnum.c\
 		ft_putendl_fd.c\
 		ft_putnbr_fd.c\
 		ft_striteri.c\
-		ft_strtrim.c
+		ft_strtrim.c\
+		ft_split.c
 
 OBJS = $(SRC:.c=.o)
 

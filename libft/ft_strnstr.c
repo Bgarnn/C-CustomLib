@@ -21,14 +21,14 @@ char	*ft_strnstr(const char *str, const char *val, size_t num)
 	val_i = 0;
 	if (val[val_i] == '\0')
 		return ((char *)str);
-	while((str_i < num) && (str[str_i] != '\0'))
+	while ((str_i < num) && (str[str_i] != '\0'))
 	{
-		if(str[str_i] == val[val_i])
+		if (str[str_i] == val[val_i])
 		{
-			while((str[str_i + val_i] == val[val_i]) && (str_i + val_i < num))
+			while ((str[str_i + val_i] == val[val_i]) && (str_i + val_i < num))
 			{
-				if(val[val_i + 1] == '\0')
-					return((char *)str + str_i);
+				if (val[val_i + 1] == '\0')
+					return ((char *)str + str_i);
 				val_i++;
 			}
 			val_i = 0;
