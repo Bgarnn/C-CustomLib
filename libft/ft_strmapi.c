@@ -16,11 +16,13 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	char			*str;
 	unsigned int	i;
+	unsigned int	len;
 
 	i = 0;
-	if (s == NULL)
-		return (ft_strdup(""));
-	str = (char *)malloc((ft_strlen(s) + 1) * sizeof(char));
+	if (s == NULL || f == NULL)
+		return (NULL);
+	len = ft_strlen(s);
+	str = (char *)malloc((len + 1) * sizeof(char));
 	if (str == NULL)
 		return (NULL);
 	while (s[i] != '\0')
