@@ -26,3 +26,4 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		}
 	}
 }
+// apply fx(f) to each character in string (s)

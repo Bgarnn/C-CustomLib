@@ -38,3 +38,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[s1_i + s2_i] = '\0';
 	return (str);
 }
+// allocate new string, S1 + s2

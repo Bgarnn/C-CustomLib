@@ -38,3 +38,4 @@ char	*ft_substr(char const *str, unsigned int start, size_t num)
 	sub[num] = '\0';
 	return (sub);
 }
+// allocate substr from (str), begin at index (start), up to (num) size

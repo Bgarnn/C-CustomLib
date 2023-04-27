@@ -26,3 +26,4 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		back->next = new;
 	}
 }
+// add (new) node at the end of (lst)

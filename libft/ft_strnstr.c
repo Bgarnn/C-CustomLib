@@ -37,3 +37,6 @@ char	*ft_strnstr(const char *str, const char *val, size_t num)
 	}
 	return (NULL);
 }
+// search string (val) im string (str), search (num) character
+// If (val) = empty str -> return (str), If no (val) --> return NULL
+// If (val) exist -> pointer to the first occurance

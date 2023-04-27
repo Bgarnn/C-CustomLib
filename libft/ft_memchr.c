@@ -26,3 +26,4 @@ void	*ft_memchr(const void *str, int val, size_t num)
 	}
 	return (NULL);
 }
+// locate (val) in (str), within (num) byte

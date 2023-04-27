@@ -39,3 +39,4 @@ int	ft_atoi(const char *str)
 	}
 	return (nb * sign);
 }
+// convert ascii (str) to ineger

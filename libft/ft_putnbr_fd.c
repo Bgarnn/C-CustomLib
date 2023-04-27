@@ -29,3 +29,4 @@ void	ft_putnbr_fd(int num, int fd)
 	else
 		ft_putchar_fd(num + '0', fd);
 }
+// output int (num) to the given (fd)

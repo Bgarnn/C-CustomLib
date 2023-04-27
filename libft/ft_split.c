@@ -83,3 +83,4 @@ char	**ft_split(char const *s, char val)
 	str[str_i] = NULL;
 	return (str);
 }
+// split string (s) by (val) character, NULL-terminate

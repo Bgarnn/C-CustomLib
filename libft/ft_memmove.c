@@ -31,3 +31,4 @@ void	*ft_memmove(void *dst, const void *src, size_t num)
 	else
 		return (ft_memcpy(dst, src, num));
 }
+// copy from (src) to (dst), (num) byte, can overlap

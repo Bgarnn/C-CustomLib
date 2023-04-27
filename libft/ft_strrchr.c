@@ -29,3 +29,4 @@ char	*ft_strrchr(const char *str, int val)
 	}
 	return (NULL);
 }
+// locate first (val) in (str), NULL-terminate

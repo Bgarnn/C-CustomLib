@@ -19,6 +19,8 @@ char	*ft_strdup(const char *str)
 
 	i = 0;
 	ptr = (char *)malloc((ft_strlen(str) + 1) * sizeof(char));
+	if (ptr == NULL)
+		return (NULL);
 	if (ptr != NULL)
 	{
 		while (str[i] != '\0')
@@ -30,3 +32,4 @@ char	*ft_strdup(const char *str)
 	}
 	return (ptr);
 }
+// allocate memmory for a copr of (str)

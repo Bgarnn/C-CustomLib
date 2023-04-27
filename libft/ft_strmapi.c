@@ -33,3 +33,4 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+// create new string that apply fx(f) to each character in string (s)

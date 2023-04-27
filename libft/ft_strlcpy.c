@@ -27,3 +27,5 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (ft_strlen(src));
 }
+// copy from (src) to (dst), NULL-terminate
+// return length of (src)

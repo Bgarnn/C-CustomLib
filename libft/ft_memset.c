@@ -25,3 +25,4 @@ void	*ft_memset(void *str, int val, size_t num)
 	}
 	return (str);
 }
+// fill (str) with (val), (num) byte

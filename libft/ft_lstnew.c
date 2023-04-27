@@ -23,3 +23,4 @@ t_list	*ft_lstnew(void *content)
 	ptr->next = NULL;
 	return (ptr);
 }
+// allocate new node contain (content) & 'next' to NULL

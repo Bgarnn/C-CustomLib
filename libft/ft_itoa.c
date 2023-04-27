@@ -55,3 +55,4 @@ char	*ft_itoa(int num)
 	}
 	return (str);
 }
+// convert integer to ascii

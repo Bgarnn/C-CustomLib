@@ -30,3 +30,4 @@ int	ft_memcmp(const void *s1, const void *s2, size_t num)
 	}
 	return (0);
 }
+// compare byte srings, both are assumed to be (num) byte long

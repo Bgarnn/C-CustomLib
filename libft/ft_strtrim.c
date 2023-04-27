@@ -33,3 +33,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, &s1[start], end - start + 1);
 	return (str);
 }
+// trim (set) of character from string (s), both front & back

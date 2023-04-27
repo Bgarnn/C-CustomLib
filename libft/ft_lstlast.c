@@ -24,3 +24,4 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (0);
 }
+// return last node

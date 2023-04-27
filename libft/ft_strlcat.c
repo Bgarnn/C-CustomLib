@@ -33,3 +33,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_i + src_i] = '\0';
 	return (ft_strlen(src) + dst_i);
 }
+// append (src) to end of (dst), cannot overlap, NULL-terminate
+// return length of (src) + initial length of (dst)
