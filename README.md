@@ -13,12 +13,12 @@ The library includes functions like ft_strlen, ft_strcpy, ft_memset, ft_lstnew, 
 
 To compile the Libft library, follow these simple steps:
 
-Clone the Repository:
-    git clone git@github.com:Bgarnn/libft.git
-    cd libft
-Compile the Library:
-    make:  This will generate the libft.a static library.
-Clean the Build:
-    make clean: This removes the object files, keeping only the compiled library.
+- Clone the Repository:
+    - git clone git@github.com:Bgarnn/libft.git
+    - cd libft
+- Compile the Library:
+    - make:  This will generate the libft.a static library.
+- Clean the Build:
+    - make clean: This removes the object files, keeping only the compiled library.
     
 ** Now you're ready to integrate Libft into your projects! Simply link your programs with libft.a during compilation.
