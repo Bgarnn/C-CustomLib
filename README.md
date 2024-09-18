@@ -14,7 +14,7 @@ To compile the project library, follow these simple steps:
 
 - Clone the Repository:
     - git clone git@github.com:Bgarnn/C-CustomLib.git
-    - cd C-CustomLib
+    - cd C-CustomLib/project
 - Compile the Library:
     - make:  This will generate the libft.a static library.
 - Clean the Build:
