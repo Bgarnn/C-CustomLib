@@ -13,8 +13,8 @@ The library includes functions such as ft_strlen, ft_strcpy, ft_memset, and ft_l
 To compile the project library, follow these simple steps:
 
 - Clone the Repository:
-    - git clone git@github.com:Bgarnn/C-customLib.git
-    - cd C-customLib
+    - git clone git@github.com:Bgarnn/C-CustomLib.git
+    - cd C-CustomLib
 - Compile the Library:
     - make:  This will generate the libft.a static library.
 - Clean the Build:
