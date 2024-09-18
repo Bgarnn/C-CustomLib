@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: kburalek <marvin@42.fr>                    +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/02/22 13:29:22 by kburalek          #+#    #+#              #
-#    Updated: 2023/02/22 13:29:25 by kburalek         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 FLAGS = -Wall -Wextra -Werror
 NAME =	libft.a
 SRC =	ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c\
